@@ -2,6 +2,7 @@ import './App.css';
 import Title from './components/Title';
 import Header from './components/Header';
 import Button from './components/Button';
+import UseStateHookEx from './examples/UseStateHookEx';
 import headerImage from './img/header-img.png';
 import { BsFillSendFill } from "react-icons/bs";
 
@@ -38,6 +39,7 @@ function App() {
                 </div>
                 <img src={headerImage} alt='header image' className='header-img' />
             </Header>
+            <UseStateHookEx />
         </div>
     );
 }
